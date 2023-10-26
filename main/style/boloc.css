@@ -1,0 +1,176 @@
+.filter-result{
+    min-height: auto;
+    margin: auto;
+    margin-top: 2%;
+}
+.filter-container{
+    max-width:  100%;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+.filter-container-top{
+    width: 100%;
+    border-radius: 10px;
+}
+.filter {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(20%);
+    flex-wrap: wrap;
+    width: 100%;
+}
+.filter .item{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-inline:5px ;
+    margin-top: 5px;
+}
+.item input, .item select{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.filter .item select,
+.filter .item input,
+.filter .item button{
+    width: 80%;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+}
+.filter .item label{
+    display: block;
+    width: 80%;
+    padding: 0 10px;
+}
+.item.submit {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.item.submit button{
+    width: 15%;
+    font-size: 15px;
+    padding: 5px 0 ;
+    border-radius: 5px;
+}
+.item.submit button:hover {
+    background: linear-gradient(white,rgb(45, 192, 197))
+}
+.filter .item.submit button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.countResults{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* product gallery ------------------------------------ */
+.product-gallery-one-content-product {
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+}
+.product-gallery-one-content-product-item {
+    width: 20%;
+    padding: 50px 12px 12px;
+    border: 1px solid rgba(235,233,233);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-gallery-one-content-product-item:hover {
+    box-shadow: 3px 3px 5px #918c8c;
+}
+.product-gallery-one-content-product-item:hover > img {
+    transform: translateY(-20px);
+}
+.product-gallery-one-content-product-item > img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.product-gallery-one-content-product-item-text {
+    width: 70%;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.product-gallery-one-content-product-item-text li {
+    margin-bottom: 6px;
+}
+.product-gallery-one-content-product-item-text li:nth-child(1)  {
+    font-size: 14px;
+    color: rgb(83, 81, 68);
+}
+.product-gallery-one-content-product-item-text li:nth-child(1):hover {
+    color: blue;
+}
+.product-gallery-one-content-product-item-text li:nth-child(2) a  {
+    font-size: 16px;
+}
+.product-gallery-one-content-product-item-text li:nth-child(2):hover a  {
+    color: blue;
+}
+.product-gallery-one-content-product-item-text li:nth-child(3) {
+    font-size: 13px;
+}
+.product-gallery-one-content-product-item-text li:nth-child(4) {
+    text-decoration: line-through;
+}
+.product-gallery-one-content-product-item-text li:nth-child(4) {
+    font-weight: bold;
+}
+.product-gallery-one-content-product-item-text li:nth-child(6) i {
+    color: #fb6e2e;
+}
+.product-gallery-one-content-product-item-text button{
+   
+    padding: 4px 10px;
+    background:linear-gradient(rgb(196, 209, 79),white);
+    border: none;
+}
+.product-gallery-one-content-product-item-text button:hover{
+    background: linear-gradient(yellow,white);
+    color: blue;
+}
+.product-gallery-one {
+    margin-top: 30px;
+}
+.product-gallery-one-content-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product-gallery-one-content-title h2 {
+    color: #333;
+}
+.product-gallery-one-content-title ul {
+    display: flex;
+}
+.product-gallery-one-content-title ul li a {
+    color: #333;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+.product-gallery-one-content-title ul li {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    margin-left: 12px;
+    border-radius: 40px;
+}
+.product-gallery-one-content-title ul li:hover a {
+    color: blue;
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItOne-MobileShop - Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/detail.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script> 
+    <link rel="icon" href="images/iconwweb.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="images/trencung1.webp" alt="">
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul id="navName">
+                <li><a href="index.html"><h1 id="own">ItOne-MobileShop</h1></a></li>
+                <li><input name="name" type="text" placeholder="Bạn đang tìm gì ..."><i class="fas fa-search"></i></li>
+                <li><a href="giohang.html"><button data-product-count="0" class="cart-add"><i class="fas fa-shopping-cart"></i>Giỏ Hàng</button></a></li>
+            </ul>  
+        </div>
+        <div class="containermenu">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="boloc.html?name=iPhone">IPHONE</a></li>
+                    <li><a href="boloc.html?name=Samsung">SAMSUNG</a></li>
+                    <li><a href="boloc.html?name=OPPO">OPPO</a></li>
+                    <li><a href="boloc.html?name=Xiaomi">XIAOMI</a></li>
+                    <li><a href="boloc.html?name=realme">REALME</a></li>
+                    <li><a href="boloc.html?name=Huawei">HUAWEI</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- LÀM CÁI  CHI  TIẾT SẢN PHẨM Ở ĐÂY -->
+    <section class="slider-detail">
+        <div class="container-detail">
+            <div class="slider-content">
+                <div class="slider-content-left-detail">
+                        <div class="slider-content-left-dt-container">
+                                <div class="slider-content-left-dt">
+                                    <!-- <img src="imgdetail/de7-1.jpg" alt="">
+                                    <img src="imgdetail/de7-3.jpg" alt="">
+                                    <img src="imgdetail/de7-2.jpg" alt="">  -->
+                                </div>
+                                <div class="slider-content-left-dt-btn">
+                                <i class="fa fa-chevron-left fa-chevron-left-detail"></i>
+                                <i class="fa fa-chevron-right fa-chevron-right-detail"></i>
+                                </div>
+                        </div>
+                        
+                </div>
+                <div class="slider-content-right-detail">        
+                        <div class="three">
+                            <div class="details col-md-6">
+                                <div class="changeInform">
+                                     <!-- <h3 class="product-title">Iphone 15 Promax 256GB</h3>  -->
+                                    <div class="rating">
+                                        <div class="stars">
+                                             <!-- <p><span class="review-no">Tồn kho: 9</span></p>
+                                            <p>Rate: 4,1/5<span class="fa fa-star checked"></span></p>  -->
+                                        </div>
+                                    </div>
+                                     <!-- <p class="product-description">Màn hình: 10.1 inch cảm ứng đa điểm</p> 
+                                     <small class="text-muted">Giá cũ : <s>10,990,000.00 vnđ</s></small> 
+                                     <h4 class="price">Giá hiện tại : <span>10,990,000.00 vnđ</span></h4>  -->
+                                </div>
+                                <div class="constInform">
+                                    <p class="vote"><strong>100%</strong> hàng <strong>Chất lượng</strong>, đảm bảo <strong>Uy tín</strong>!</p>
+                                    <h5 class="sizes">dung lượng:
+                                        <span class="size" data-toggle="tooltip" title="nhỏ">128GB</span>
+                                        <span class="size" data-toggle="tooltip" title="Trung bình">256GB</span>
+                                        <span class="size" data-toggle="tooltip" title="Lớn">512GB</span>
+                                        <span class="size" data-toggle="tooltip" title="Đại">1TB</span>
+                                        <!--data-toggle là thuộc tính riêng của bootstrap hỗ trợ hiệu ứng khi click vào dropdown menu-->
+                                    </h5>
+                                    <h5 class="colors">colors:
+                                        <span class="color orange not-available" data-toggle="tooltip" title="Hết hàng"></span>
+                                        <span class="color green"></span>
+                                        <span class="color blue"></span>
+                                    </h5>
+                                    <div class="form-group">
+                                        <label for="soluong">Số lượng đặt mua:</label>
+                                        <input type="number" class="form-control" id="soluong" name="soluong">
+                                    </div>
+                                    <div class="action">
+                                        <button type="button" class="button1"><a class="add-to-cart btn btn-default" id="btnThemVaoGioHang">Thêm vào giỏ hàng</a></button>
+                                        <button type="button" class="button2"><a class="like btn btn-default" href="#"><span class="fa fa-heart"></span></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section class="slider-2">
+        <div class="slider_tuong_tu">
+            <div class="container-detail">
+                <div class="two">
+                    <div class="two1">
+                        <div class="preview"><h2>Sản phẩm tương tự</h2>
+                            <div class="preview-content">
+                                <div class="preview-pic tab-content">
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-14.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone14</a>
+                                            <p>16.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-29.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone15</a>
+                                            <p>26.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-28.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone13</a>
+                                            <p>12.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-27.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone12</a>
+                                            <p>10.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-22.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone11</a>
+                                            <p>29.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-23.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhoneX</a>
+                                            <p>6.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-14.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">Xiaomi</a>
+                                            <p>16.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-24.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">Redmi</a>
+                                            <p>26.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-25.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">Huawei</a>
+                                            <p>16.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-11.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone14</a>
+                                            <p>16.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-12.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">iPhone15</a>
+                                            <p>36.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pic-1">
+                                        <p> Trả góp 0%</p>
+                                        <a href=""><img src="imgdetail/de-13.jpg" width="90%"></a>
+                                        <div class="more">
+                                            <a href="">SamSung</a>
+                                            <p>16.000.000<sup>đ</sup></p>
+                                        </div>
+                                    </div>
+    
+                                    
+                                </div>
+                                <div class="slider-product-true-content-btn">
+                                <i class="fa fa-chevron-left  fa-chevron-left-true" id="prev-button"></i>
+                                <i class="fa fa-chevron-right fa-chevron-right-true" id="next-button"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="previewcontent">
+                            <img src="images/anhleft.png" style="width: 96%; margin-left: 3%; margin-top: 3%;" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="two2">
+                    <h3>Thông số kỹ thuật</h3>
+                    <table class="table" style="width:100%" border="1" id="paste">
+                              <!-- <tr>
+                                <th>Màn hình</th>
+                                <td>6.7 inches</td>
+                                <td>Super Retina XDR OLED</td>
+                            </tr>
+                            <tr>
+                                <th>RAM / pin</th>
+                                <td>256GB</td>
+                                <td>Francisco Chang</td>
+                            </tr>
+                            <tr>
+                                <th>Camera</th>
+                                <td>Camera sau: 48MP, 24 mm, ƒ/1.78,</td>
+                                <td>Camera trước: 12MP, ƒ/1.9</td>
+                            </tr>
+                            <tr>
+                                <th>Bộ xử lý</th>
+                                <td>Chipset A17 Pro</td>
+                                <td>Hệ điều hành ios17</td>
+                            </tr>
+                            <tr>
+                                <th>Cấu hình</th>
+                                <td>Bộ nhớ trong: 256GB</td>
+                                <td>Thẻ SIM: 2 SIM (nano‑SIM và eSIM)</td>
+                            </tr>  -->
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Làm lại cái  đánh  giá sản  phẩm  -->
+<section id="feedback">
+     <div class="feedback-heading">
+        <span> Comments</span>
+        <h1> Clients Says</h1>
+     </div>
+     <div class="feedback-box-container">
+          <!-- BOX 1-->
+            <div class="feedback-box">
+                    <!-- top -->
+                    <div class="box-top">
+                            <!-- profile-->
+                            <div class="profile">
+                                <!-- img-->
+                                    <div class="profile-image">
+                                        <img src="./images/taikhoan/hinh-anh-avatar-anime-nam-dep.jpg">
+                                    </div>  
+                                <!-- Name end ursername --> 
+                                    <div class="name-user">
+                                        <strong> Tu Quoc Chung </strong>
+                                        <span> tuquocchung@gmail.com</span>
+                                    </div>
+
+                            </div>
+                            <!--Review-->
+                            <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                    </div>
+
+
+                    <!--comments-->
+                    <div class="client-comment">
+                        <p> Sản phẩm mua về thật tuyệt vời . Chơi game không bao giờ có tình trạng giật lang, pin dùng  rất là trâu . Nhưng sau khi dùng  được một khoảng thời gian  thì nó bị  tình  trạng trai pin, máy dùng rất nóng . Rất mong được khắc phục .</p>  
+                    </div>
+            </div>
+          <!-- BOX 2-->
+            <div class="feedback-box">
+                <!-- top -->
+                <div class="box-top">
+                        <!-- profile-->
+                        <div class="profile">
+                            <!-- img-->
+                                <div class="profile-image">
+                                    <img src="./images/taikhoan/4927aa285cd5c1de43e34da92d520b57.jpg">
+                                </div>  
+                            <!-- Name end ursername --> 
+                                <div class="name-user">
+                                    <strong> Nguyen Van Kiet </strong>
+                                    <span> nguyenvankiet@gmail.com</span>
+                                </div>
+
+                        </div>
+                        <!--Review-->
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+
+
+                <!--comments-->
+                <div class="client-comment">
+                    <p>"Với một thời gian dài sử dụng chiếc điện thoại này, tôi thực sự ấn tượng về hiệu suất và tính năng của nó.
+                         Điện thoại này không chỉ đáp ứng mọi nhu cầu của tôi mà còn vượt quá mong đợi
+                        Tôi yêu thiết kế của chiếc điện thoại này.
+                        Trải nhiệm thú vị</p>  
+                </div>
+            </div>
+          <!-- BOX 3-->
+            <div class="feedback-box">
+            <!-- top -->
+            <div class="box-top">
+                    <!-- profile-->
+                    <div class="profile">
+                        <!-- img-->
+                            <div class="profile-image">
+                                <img src="./images/taikhoan/images.jpg">
+                            </div>  
+                        <!-- Name end ursername --> 
+                            <div class="name-user">
+                                <strong> Vũ Minh Quyết </strong>
+                                <span> lupin@gmail.com</span>
+                            </div>
+
+                    </div>
+                    <!--Review-->
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+            </div>
+
+
+            <!--comments-->
+            <div class="client-comment">
+                <p> May mua về khá lang dù chưa tải được gì nhiều. Tôi sẽ không bao giờ mua ở đây nữa. 
+                    Tôi mong rằng mọi thứ sẽ trở nên ổn định hơn và
+                     pin sẽ được trâu hơn để có những trải nhiệm tốt hơn với chiếc máy này . Nếu trải nghiệm
+                    thực sự tốt tôi sẽ mua cả cửa hàng. </p>  
+            </div>
+            </div>
+          <!--BOX 4 -->
+            <div class="feedback-box">
+        <!-- top -->
+        <div class="box-top">
+                <!-- profile-->
+                <div class="profile">
+                    <!-- img-->
+                        <div class="profile-image">
+                            <img src="./images/taikhoan/1000_F_571350664_jCv3SsOqFzrmtRb43HPxmhCU7TUCYTps.jpg">
+                        </div>  
+                    <!-- Name end ursername --> 
+                        <div class="name-user">
+                            <strong> Võ Hoàng Hưng </strong>
+                            <span> vohoanghung1234@gmail.com</span>
+                        </div>
+
+                </div>
+                <!--Review-->
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+        </div>
+
+
+        <!--comments-->
+        <div class="client-comment">
+            <p> Chơi game nghe nhạc siêu ổn , đặc biệt là chơi game không bị lác.Tôi đã có các trải nghiệm vô cùng thú vị 
+                đối với chiếc máy này 
+                nó nhẹ nhàng, mỏng và cảm giác rất sang trọng trong tay.
+                 Mong là thời gian nữa dùng pin sẽ được lâu và không bị giảm về hiệu năng cũng như pin .</p>  
+        </div>
+            </div>
+     </div>
+</section> 
+<!-- footer -->
+<div class="bar-distance">
+</div>
+    <footer class ="footer">
+        <div class="grid">
+            <div class="grid-row">
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tiệm Sale Phone</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>                  
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading">Giới thiệu </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng </a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>                  
+                        </li>
+
+                    </ul>
+
+                </div>             
+                <div class="grid_column-2-4 footer_ba">
+                    <h3 class="footer_heading">Danh mục  </h3> 
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Iphone</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phụ kiện </a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Sản phẩm mới</a>                  
+                        </li>
+
+                    </ul>
+                </div>
+                
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Theo dõi</h3>
+                    <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">
+                            <i class="fab fa-facebook"></i>    
+                            Facebook
+                        </a>
+                    </li>
+
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">
+                            <i class="fab fa-instagram"></i>
+                            Intagram 
+                        </a>
+                    </li>
+
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">
+                            <i class="fab fa-linkedin"></i>
+                            Linkedin            
+                        </a>      
+
+                    </li>
+
+                    <li class="footer-item">
+                        <a href="#" class="footer-item__link">
+                            <i class="fas fa-envelope"></i>
+                            Email            
+                        </a>      
+
+                    </li>
+
+                    </ul>
+                </div>
+
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Vào của hàng trên ứng dụng </h3>     
+                    <div class="footer__downloat">
+                        <img src="./images/qrmau.jpg" alt="" class="footer__download-qr">
+
+                        <div class="footer__downloat-apps">
+                            <ul>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-item__link">
+                                        <i class="fab fa-google-play"></i>
+                                        Google Play 
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-item__link">
+                                        <i class="fab fa-app-store-ios"></i>
+                                        App Store            
+                                    </a>      
+                                </li>
+                        </ul>      
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flooter-line">
+            <li class="footer-line-list">
+                    <a href="" class="footer-item__link_line"> Chính sách bảo mật </a>
+            
+                    <a href="" class="footer-item__link_line"> Quy chế hoạt động </a>
+                    
+                    <a href="" class="footer-item__link_line"> Chính sách vận chuyển </a>                  
+    
+                    <a href="" class="footer-item__link_line"> Chính sách trả hàng và hoàn tiền </a>                  
+            </li>
+        </div>
+
+    <div class="armorial-footer">
+        <ul> 
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="./images/footer/dmca_copyright_protected150c.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="./images/footer/handle_cert.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="./images/footer/logoSaleNoti.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+        <div class="finish">
+            <p class="finish_adress">
+            Địa chỉ : Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội. Điện thoại: (84.24) 37663311                                  
+            </p>
+            <p class="banquyen">
+            © 2023 Công ty TNHH 4 thành viên .
+            </p>
+        </div>
+
+    </footer> 
+    <script src="js/script-detail.js"></script>
+    <script src="js/detail1.js"></script>
+    <script src="js/timkiem.js"></script>
+    <script src="js/checklogin.js"></script>
+</body>
+</html>
+    

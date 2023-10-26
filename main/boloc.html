@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItOne-MobileShop - Bộ lọc</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script> 
+    <link rel="icon" href="images/iconwweb.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/boloc.css">
+</head>
+<body>
+    <header>
+        <img src="images/trencung1.webp" alt="">
+    </header>
+    <!-- thanh nav -->
+    <nav>
+        <div class="container">
+            <ul id="navName">
+                <li><a href="index.html"><h1 id="own">ItOne-MobileShop</h1></a></li>
+                <li><input name="name" type="text" placeholder="Bạn đang tìm gì ..."><i class="fas fa-search"></i></li>
+                <li><a href="giohang.html"><button data-product-count="0" class="cart-add"><i class="fas fa-shopping-cart"></i>Giỏ Hàng</button></a></li>
+            </ul>  
+        </div>
+        <div class="containermenu">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="boloc.html?name=iPhone">IPHONE</a></li>
+                    <li><a href="boloc.html?name=Samsung">SAMSUNG</a></li>
+                    <li><a href="boloc.html?name=OPPO">OPPO</a></li>
+                    <li><a href="boloc.html?name=Xiaomi">XIAOMI</a></li>
+                    <li><a href="boloc.html?name=realme">REALME</a></li>
+                    <li><a href="boloc.html?name=Huawei">HUAWEI</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- bộ lọc ---------------------------------------------------------------------------------------------------------------------- -->
+    <section class="filter-result">
+        <div class="fliter-container">
+            <div class="filter-container-top">
+                <form class="filter">
+                    <!-- <div class="item">
+                        <label>Name</label>
+                        <input name="name" type="text">
+                    </div> -->
+                    <div class="item">
+                        <label>--Min Price--</label>
+                        <input name="minPrice" type="number" step="1000000">
+                    </div>
+                    <div class="item">
+                        <label>--Max Price--</label>
+                        <input name="maxPrice" type="number" step="1000000">
+                    </div>
+                    <div class="item">
+                        <label>--Hãng--</label>
+                        <select name="hang">
+                            <option value="">-tất cả-</option>
+                            <option value="iphone">iPhone</option>
+                            <option value="samsung">Samsung</option>
+                            <option value="oppo">Oppo</option>
+                            <option value="xiaomi">Xiaomi</option>
+                            <option value="realme">Realme</option>
+                            <option value="huawei">Huawei</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label>--RAM--</label>
+                        <select name="RAM">
+                            <option value="">-tất cả-</option>
+                            <option value="2GB">2GB</option>
+                            <option value="3GB">3GB</option>
+                            <option value="4GB">4GB</option>
+                            <option value="6GB">6GB</option>
+                            <option value="8GB">8GB</option>
+                            <option value="12GB">12GB</option>
+                            <option value="16GB">16GB</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label>--R0M--</label>
+                        <select name="ROM">
+                            <option value="">-tất cả-</option>
+                            <option value="32GB">32GB</option>
+                            <option value="64GB">64GB</option>
+                            <option value="128GB">128GB</option>
+                            <option value="256GB">256GB</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="item submit">
+                    <button>Tìm kiếm</button>
+                </div>
+            </div>
+            <div class="countResults">
+                Chúng tôi có <b id="count">5</b> sản phẩm thỏa mãn yêu cầu của bạn!
+            </div>
+        </div>
+    </section>
+    <section class="product-gallery-one">
+        <div class="container">
+            <div class="product-gallery-one-content">
+                <div class="product-gallery-one-content-product">
+                    <div id="list">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer ----------------------------------------------------------------------------- -->
+    </section>
+    <div class="bar-distance">
+    </div>
+   <footer class ="footer">
+        <div class="grid">
+            <div class="grid-row">
+                  <div class="grid_column-2-4">
+                      <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                      <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tiệm Sale Phone</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>                  
+                            </li>
+                      </ul>
+                  </div>
+
+                  <div class="grid_column-2-4">
+                    <h3 class="footer_heading">Giới thiệu </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng </a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>                  
+                        </li>
+
+                      </ul>
+
+                  </div>
+
+                  
+                  <div class="grid_column-2-4 footer_ba">
+                     <h3 class="footer_heading">Danh mục  </h3> 
+                     <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Iphone</a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Phụ kiện </a>
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Sản phẩm mới</a>                  
+                        </li>
+
+                      </ul>
+                  </div>
+                  
+                  <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Theo dõi</h3>
+                     <ul class="footer-list">
+                       <li class="footer-item">
+                           <a href="#" class="footer-item__link">
+                               <i class="fab fa-facebook"></i>    
+                               Facebook
+                           </a>
+                       </li>
+
+                       <li class="footer-item">
+                           <a href="#" class="footer-item__link">
+                               <i class="fab fa-instagram"></i>
+                               Intagram 
+                           </a>
+                       </li>
+
+                       <li class="footer-item">
+                           <a href="#" class="footer-item__link">
+                               <i class="fab fa-linkedin"></i>
+                               Linkedin            
+                           </a>      
+
+                       </li>
+
+                       <li class="footer-item">
+                        <a href="#" class="footer-item__link">
+                            <i class="fas fa-envelope"></i>
+                            Email            
+                        </a>      
+
+                    </li>
+
+                     </ul>
+                 </div>
+
+
+                  <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Vào của hàng trên ứng dụng </h3>     
+                    <div class="footer__downloat">
+                        <img src="images/qrmau.jpg" alt="" class="footer__download-qr">
+
+                        <div class="footer__downloat-apps">
+                            <ul>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-item__link">
+                                        <i class="fab fa-google-play"></i>
+                                        Google Play 
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="#" class="footer-item__link">
+                                        <i class="fab fa-app-store-ios"></i>
+                                        App Store            
+                                    </a>      
+                                </li>
+                          </ul>      
+                        </div>
+
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+<!-- Dòng chứa bón nội dung  mới tiếp -->
+        <div class="flooter-line">
+            <li class="footer-line-list">
+                    <a href="" class="footer-item__link_line"> Chính sách bảo mật </a>
+               
+                    <a href="" class="footer-item__link_line"> Quy chế hoạt động </a>
+                    
+                    <a href="" class="footer-item__link_line"> Chính sách vận chuyển </a>                  
+       
+                    <a href="" class="footer-item__link_line"> Chính sách trả hàng và hoàn tiền </a>                  
+            </li>
+        </div>
+
+    <div class="armorial-footer">
+        <ul> <!-- Thêm phần tử danh sách để bao quanh các mục -->
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="images/footer/dmca_copyright_protected150c.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="images/footer/handle_cert.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="armorial-footer">
+                    <img src="images/footer/logoSaleNoti.png" alt="Mô tả hình ảnh">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+        <div class="finish">
+            <p class="finish_adress">
+              Địa chỉ : Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội. Điện thoại: (84.24) 37663311                                  
+            </p>
+            <p class="banquyen">
+              © 2023 Công ty TNHH 4 thành viên 
+            </p>
+        </div>
+
+   </footer>
+    <script src="js/timkiem.js"></script>
+    <script src="js/boloc.js"></script>
+    <script src="js/checklogin.js"></script>
+</body>
+</html>

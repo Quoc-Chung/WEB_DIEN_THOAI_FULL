@@ -1,0 +1,41 @@
+ItOne-MobileShop - Khởi chạy
+
+---+Tài nguyên+---
++ cài Nodejs ở đây: https://nodejs.org/en
++ cài thư viện json-sever ở đây: https://github.com/typicode/json-server
+
+---+Mã lệnh+---
++ sau khi cài đặt thành công, tại file package.json, dùng đoạn mã sau:
+{
+  "name": "json-sever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch detail1.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
++ mở new terminal: chạy lệnh: npm start; kết quả khi chạy lệnh thành công:
+> json-sever@1.0.0 start
+> json-server --watch detail1.json
+
+
+  \{^_^}/ hi!
+
+  Loading detail1.json
+  Done
+
+  Resources
+  http://localhost:3000/account
+  http://localhost:3000/courses
+  http://localhost:3000/address
+
+  Home
+  http://localhost:3000
++ sử dụng website bình thường

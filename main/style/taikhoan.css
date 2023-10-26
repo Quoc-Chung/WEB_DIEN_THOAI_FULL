@@ -1,0 +1,214 @@
+body{
+    background: linear-gradient(rgb(92, 124, 123),rgb(207, 221, 138));
+}
+section:nth-child(2).inform{
+    border: none;
+    margin-top: 10px;
+    
+}
+.inform-content{
+   
+    display: flex;
+}
+.inform-content-left{
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+.inform-content-left ul li a{
+    font-size: 16px;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+.inform-content-left ul li{
+    margin-bottom: 8%;
+    
+}
+.inform-content-left ul li:first-child:hover{
+    background-color: rgb(228,230,236);
+}
+.inform-content-left ul li:nth-child(2):hover{
+    background-color: rgb(228,230,236);
+}
+.inform-content-left ul li:first-child a:hover i{
+    color: rgb(219, 65, 19);
+}
+.inform-content-left ul li:nth-child(2):hover i{
+    color: blue;
+}
+.inform-content-left ul li:nth-child(3) a button{
+    width: 100%;
+    padding: 10px 20px ;
+    font-weight: bold;
+    border: 1px solid orange;
+    color: orange;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 4%;
+    transform: translateX(-2%);
+    border-radius: 4px;
+   
+}
+.inform-content-left ul li:nth-child(3) button:hover{
+    color: white;
+    background-color: orange;
+}
+.inform-content-left ul li:last-child img{
+    transform: translateX(-2%);
+    width: 100%;
+}
+.inform-content-right{
+    width: 68%;
+
+}
+.inform-content-right ul li h2{
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inform-content-right ul li:nth-child(2){
+    margin-top: 2%;
+    background-color:rgb(255,248,212);
+    width: 100%;
+    padding-left: 2%;
+    border-radius: 6px;
+    border: 1px solid orange;
+    
+}
+.inform-content-right ul li:nth-child(3){
+    border-radius: 6px;
+    border: 1px solid orange;
+}
+.inform-content-right ul li:nth-child(2) h3{
+    padding-top: 1%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+form{
+   
+    width: 100%;
+}
+.inform-form-content form p.name{
+    font-size: 15px;
+    display: flex;
+    padding-top: 2%;
+    height: 50px;
+}
+.inform-form-content form p.sdt{
+    margin-top: 10px;
+}
+.inform-form-content form p.name input#ten{
+    margin-left: 10px;
+    width: 30%;
+    border-radius: 4px;
+}
+.inform-form-content form p.name select{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 0;
+    
+}
+.inform-form-content form button{
+   text-align: center;
+   justify-content: center;
+   margin-left: 45%;
+   margin-top: 2%;
+   width: 20%;
+   height: 40px;
+   padding: 5px 10px;
+   margin-bottom: 1%;
+   background-color: burlywood;
+   border-radius: 8px;
+}
+.inform-form-content form button:hover{
+    background:linear-gradient(grey,white);
+}
+
+.inform-form-content form p.sdt input#dt {
+    margin-left: 5.8%;
+    width: 30%;
+    height:45px;
+    border-radius: 4px;
+}
+.inform-content-right ul li:nth-child(3){
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-right:3%;
+    background-color:rgb(255,248,212);
+    width: 100%;
+    padding-left: 2%;
+}
+.inform-content-right ul li:nth-child(3) h3{
+    padding-top: 1%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.address-form-content form{
+    display: inline;
+    width: 100%;
+    margin-left: 1%;
+    padding-right: 2%;
+    box-sizing: border-box;
+
+}
+.address-form-content span{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+.address-form-content span select{
+    width: 48%;
+}
+.address-form-content span input{
+    width: 48%;
+    height: 45px;
+    margin-top: 2%;
+    border-radius: 4px;
+    border: 1px solid grey;
+
+}
+.address-form-content button{
+    text-align: center;
+   justify-content: center;
+   margin-left: 42%;
+   margin-top: 5%;
+   width: 20%;
+   padding: 5px 10px;
+   margin-bottom: 1%;
+   height: 40px;
+   border-radius: 8px;
+   background-color: burlywood;
+}
+.address-form-content form button:hover{
+    background:linear-gradient(grey,white);
+}
+@media (max-width:660px)
+{
+    .inform-form-content form button{
+        margin-left: 35%;
+        width: 35%;
+    }
+    .inform-content-right button{
+        width: 35%;
+        margin-left: 35%;
+    }
+}
+@media (max-width:375px)
+{
+    .inform-form-content form button{
+        margin-left: 35%;
+        width: 40%;
+    }
+    .inform-content-right button{
+        width: 40%;
+        margin-left: 35%;
+    }
+}
+
+

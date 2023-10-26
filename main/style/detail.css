@@ -1,0 +1,469 @@
+section.slider-2{
+    margin-top: 15px;
+}
+
+.two{
+    height: 680px;
+    display: flex;
+}
+.two1{
+    width: 62%;
+}
+.two2{
+    height: max-content;
+    margin-left: 3%;
+    width: 35%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom ,#f7b53a,#ffffff);
+    padding: 15px 15px 15px 15px;
+}
+.preview{
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.preview h2{
+    text-align: center;
+    text-decoration: none;
+}
+.preview-content{
+    height: 100%;
+}
+.preview-pic{
+    overflow: hidden;
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: calc(19.6%);
+    margin-inline: 10px;
+}
+@media (max-width:975px)
+{
+    .preview-pic{
+        grid-auto-columns: calc(24%);
+    }
+}
+@media (max-width:650px)
+{
+    .preview-pic{
+        grid-auto-columns: calc(33%);
+    }
+}
+@media (max-width:475px)
+{
+    .preview-pic{
+        grid-auto-columns: calc(50%);
+    }
+}
+@media (max-width:375px)
+{
+    .preview-pic{
+        grid-auto-columns: calc(98%);
+    }
+    .tab-pane a img{
+        height: 40%;
+    }
+}
+.tab-pane{
+    margin-top: 10px;
+    height: 100%;
+}
+.tab-pane p:first-child{
+    font-size: 10px;
+    font-style: italic;
+    float: left;
+}
+.more{
+    text-align: center;
+    align-items: center;
+}
+.more a{
+    font-size: 15px;
+}
+.more a:hover{
+    color: wheat;
+}
+.more p{
+    color: red;
+}
+.preview-pic .tab-content > div{ 
+    width: 20%;
+}
+.tab-pane img{
+    height: 50%;
+}
+/*- FIX LẠI CÁI SLIDE BÊN TRÊN */
+.container-detail{
+    max-width: 1200px;
+    margin: auto;
+}
+.slider-detail{
+    height:auto;
+    margin: auto;
+    margin-top: 15px;
+}
+.slider-content{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-content-left-detail{
+    width:100%;
+
+}
+.slider-content-right-detail{
+    width:60%;
+}
+.slider-content-left-dt{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    scrollbar-width: 0;
+}
+.slider-content-left-dt img{
+    width:100%;
+    height: fit-content;
+
+}
+.slider-content-left-dt img:first-child{
+    margin-left: 100px ;
+    width:70%;
+    overflow: auto;
+}
+.three{
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+    padding: 15px 0 0 15px;
+    border: #000 1px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom ,#f7b53a,#ffffff);
+}
+h3{
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+.details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.colors {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.review-no{
+    float: left;
+}
+.product-title,
+.price,
+.sizes,
+.colors {
+    text-transform: UPPERCASE;
+    font-weight: bold;
+}
+.checked,
+.price span {
+    color: #ff9f1a;
+}
+
+.product-title,
+.rating,
+.product-description,
+.price,
+.vote,
+.sizes {
+    margin-bottom: 15px;
+}
+
+.product-title {
+    margin-top: 0;
+}
+
+.size {
+    margin-right: 10px;
+}
+
+.size:first-of-type {
+    margin-left: 40px;
+}
+
+.color {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 2em;
+    width: 2em;
+    border-radius: 2px;
+}
+
+.color:first-of-type {
+    margin-left: 20px;
+}
+div.action{
+    margin-top: 20px;
+}
+.button1,
+.button2{
+    background: #ff9f1a;
+    padding: 15px 15px;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #fff;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.add-to-cart,
+.like{
+    color: #fff;
+}
+.button1:hover,
+.button2:hover {
+    background: #b36800;
+    color: #fff;
+}
+.not-available {
+    text-align: center;
+    line-height: 2em;
+}
+.more{
+    font-family: none;
+    text-transform: none;
+}
+.not-available:before {
+    font-family: fontawesome;
+    content: "\f00d";
+    color: #fff;
+}
+.orange {
+    background: #ff9f1a;
+}
+.green {
+    background: #85ad00;
+}
+.blue {
+    background: #0076ad;
+}
+.tooltip-inner {
+    padding: 1.3em;
+}
+.form-group{
+    margin: 20px 0px 20px;
+}
+th,
+td{
+    padding: 15px 15px 15px;
+    margin: none;
+}
+table{
+    border-collapse: collapse ;
+    border-color: black;
+}
+.form-control{
+    width: 10%;
+}
+@media (max-width:1200px){
+    .table{
+        font-size: 14px;
+    }
+    tr{
+        height: 50px;
+        transition: .2s ease-in-out;
+    }
+}
+@media (max-width:1000px){
+    .table{
+        font-size: 12px;
+    }
+    tr{
+        height: 45px;
+        transition: .5s ease-in-out;
+    }
+}
+@media (max-width:850px){
+    .two{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .two1{
+        width: 100%;
+    }
+    .two2{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    .table{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:400px){
+    .table{
+        font-size: 12px;
+    }
+    .preview-pic{
+        padding-top: 20px;
+    }
+    .preview{
+        height: 300px;
+    }
+}
+@media (max-width:650px){
+    .slider-content{
+        flex-direction: column;
+    }
+    .slider-content-right-detail{
+        width: 100%;
+        margin: auto;
+    }
+}
+/* css cho cái nút  btn */
+.slider-content-left-dt-btn{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider-content-left-dt-btn i{
+    color: #333;
+    font-size: 32px;
+    height: 50px;
+    width: 25px;
+    background-color: #f2ebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/*- Bắt đầu  tiến hành  tạo  slide  */
+.slider-content-left-dt img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 20px 0;
+    position: absolute;
+}
+.slider-content-left-dt img:nth-child(2){
+    transform: translateX(100%);
+}
+.slider-content-left-dt img:nth-child(3){
+    transform: translateX(200%);
+}
+.slider-content-left-dt img:nth-child(4){
+    transform: translateX(300%);
+}
+.slider-content-left-dt-container{
+    position: relative;
+    overflow: hidden;
+}
+/* Chỉ phần  bình  luận */
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.feedback-heading{
+    letter-spacing: 1px;
+    margin:10px 0px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-heading h1{
+   font-size:2rem;
+   font-weight:300;
+   background-color: #202020;
+   color:#fff ;
+   padding: 10px 20px;
+}
+.feedback-heading span{
+   font-size: 1.3rem;
+   color:#252525;
+   margin-bottom:10px ;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.feedback-box-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.feedback-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin:15px;
+    cursor: pointer;
+}
+.profile-image{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong {
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+   color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color:#4b4b4b4b;
+}
+.feedback-box:hover{
+    transform: translateY(-15px);
+    transition: all ease 0.3s;
+}
