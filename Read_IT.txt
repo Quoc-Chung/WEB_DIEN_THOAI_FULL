@@ -1,4 +1,4 @@
-ItOne-MobileShop - Khởi chạy
+ItOne-MobileShop - Khởi chạy BẰNG LOCALHOST
 
 ---+Tài nguyên+---
 + cài Nodejs ở đây: https://nodejs.org/en
@@ -39,3 +39,16 @@ ItOne-MobileShop - Khởi chạy
   Home
   http://localhost:3000
 + sử dụng website bình thường
+
+-------------------------KHỞI CHẠY BẰNG HOSTING ONLINE--------------------------------
++ thay tất cả các url:
+	http://localhost:3000/account
+  	http://localhost:3000/courses
+  	http://localhost:3000/address
+bằng:
+	https://rkjd3z-8080.csb.app/account
+	https://rkjd3z-8080.csb.app/courses
+	https://rkjd3z-8080.csb.app/address
+để đọc file json online!
+
++ link web online: https://itone-phone.kietvan6.repl.co
