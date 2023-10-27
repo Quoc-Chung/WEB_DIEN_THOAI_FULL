@@ -174,3 +174,31 @@
 .product-gallery-one-content-title ul li:hover a {
     color: blue;
 }
+
+@media (max-width:800px) {
+    .product-gallery-one-content-product-item {
+      width: 25%;
+      transition: .2s ease-in-out;
+    }
+  }
+  
+  @media (max-width:600px) {
+    .product-gallery-one-content-product-item {
+      width: 32%;
+      transition: .2s ease-in-out;
+    }
+  }
+  
+  @media (max-width:450px) {
+    .product-gallery-one-content-product-item {
+      width: 49%;
+      transition: .2s ease-in-out;
+    }
+  }
+  
+  @media (max-width:350px) {
+    .product-gallery-one-content-product-item {
+      font-size: 12px;
+      transition: .2s ease-in-out;
+    }
+  }
